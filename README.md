@@ -14,7 +14,7 @@ SuperHero Hunter is a web application made up of HTML, CSS, Vanilla JavaScript t
 - Marvel API
 
 ## How to Use
-1. Open the url 
+1. Open the url- https://asgar007.github.io/SuperHeroApp-Marvel-API/index.html
 2. Upon launching the app, you will see a list of popular Marvel comic characters.
 3. Use the search bar to look for specific characters by name.
 4. Click on a character to view their details, including their description and associated comics.
