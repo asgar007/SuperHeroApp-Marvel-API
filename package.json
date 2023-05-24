@@ -1,0 +1,14 @@
+{
+  "name": "super-hero-hunter-app",
+  "version": "1.0.0",
+  "description": "super hero search app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asgar Ali",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}

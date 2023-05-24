@@ -1,0 +1,148 @@
+:root{
+    -md-dark-color:black;
+    --dark-color:black
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(243, 219, 219);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+.empty-list{
+    font-size: 1rem;
+    color: red;
+}
+
+#heading-container{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+#heading{
+    font-size: 4pc;
+}
+
+a:visited {
+    color: black;
+}
+
+#fav-container{
+    position: relative;
+    display: flex;
+    height: 100%;
+   
+    justify-content: center;
+}
+
+#fav-list{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+#fav-list-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    flex-direction: row;
+}
+
+#fav-list-li{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 3px 3px 8px 0px #000000;
+
+
+}
+
+#single-hero{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin:20px
+    
+}
+
+#hero-info{
+    display: block;
+    width: min-content;
+}
+
+#top{
+    height: 100px;
+    width: 100px;
+}
+#top img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+/*Fav list names and */
+#bottom{
+    margin-top: 10px;
+    display: block;
+    text-align: -webkit-center;
+}
+#hero-name{
+    font-size: smaller;
+    overflow: hidden;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+
+}
+button{
+    height: 25px;
+    margin: 10px;
+    width: 80px;
+    background: red;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    height: 25px;
+    margin: 10px;
+    width: 80px;
+    background: rgb(22, 22, 22);
+    color: white;
+    border: none;
+    transition:0.2s ease-in;
+}
